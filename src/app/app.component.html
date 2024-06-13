@@ -1,16 +1,10 @@
 
 <div id="javascript_header"></div>
-<form>
-  <div class="form__header">
-    <h1>Build Your Resume</h1>
-    <p>Enter the fields below to generate an html resume</p>
-  </div>
-
   <h2>Personal Details</h2>
 
   <div class="form-group">
-    <label for="name">Full Name <span>*</span></label>
-    <input type="text" name="name" id="name" placeholder="Robert Norman Ross">
+    <label>Full Name <span>*</span></label>
+    <input type="text" [(ngModel)] ="fullName">
     <div id="name__error" class="error"></div>
   </div>
 
@@ -124,4 +118,3 @@
   <div class="line-break"></div>
 
   <input type="submit" value="Create Resume" id="create-resume">
-</form>
