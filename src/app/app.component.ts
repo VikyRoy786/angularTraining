@@ -17,6 +17,7 @@ export class AppComponent {
   education: string = '';
   job1Start: string = '';
   job1End: string = '';
+  
   job1Details: string = '';
   job2Start: string = '';
   job2End: string = '';
